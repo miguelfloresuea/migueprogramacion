@@ -138,5 +138,5 @@ for ciudad_index, ciudad in enumerate(temperaturas):
         # dividimos la suma de las temperaturas entre el número de días en la semana
         promedio = suma / len(semana)
         # Imprimir el promedio de temperaturas de la semana
-        print(f"  Semana {semana_index + 1}: Promedio de temperatura: {promedio}°C")
+        print(f"  Semana {semana_index + 1}: Promedio de temperatura: {promedio:.2f}°C")
 
