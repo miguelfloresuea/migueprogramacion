@@ -27,7 +27,7 @@ def calcular_temperatura_promedio(temperaturas, ciudades):
     return promedios_por_ciudad
 
 
-# Ejemplo de uso
+# Matrices con la temperatura de las ciudades
 temperaturas = [
     [  # Quito
         [  # Semana 1
