@@ -10,7 +10,7 @@ informacion_personal = {
 # 1. Acceder y modificar el valor de "ciudad"
 informacion_personal["ciudad"] = "Tena"  # Cambiamos la ciudad de residencia
 
-# 2. La clave "profesion" y la modificamos
+# 2. Acceder y modificar valores
 informacion_personal["profesion"] = "Ingeniero en TIC"
 
 # 3. Verificar si existe la clave "telefono" y agregarla si no existe
@@ -22,5 +22,5 @@ if "edad" in informacion_personal:
     del informacion_personal["edad"]
 
 # 5. Imprimir el diccionario final
-print("Diccionario final de información personal:")
+print("Diccionario final de: información personal:")
 print(informacion_personal)
